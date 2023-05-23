@@ -55,7 +55,7 @@ router.post('/transfer',(req, res)=> {
   rcv = req.body.rcv
   func({amt, rcv})
 	res.status(200).json({
-    	"message" : "hello post api nodejs-api"
+    	"status" : "succeed"
     });
 });   
 
